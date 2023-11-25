@@ -1,0 +1,9 @@
+{%extends 'layout.html'%}
+
+    {%block contenido%}
+    <h1>{{grupo}}</h1>
+            <h2>Grupos de PWA</h2>
+            {%for val in lista%}
+                <p>{{val}}</p>
+            {%endfor%}
+    {%endblock%}
